@@ -13,7 +13,7 @@ steps:
 - script: |
     # npm install -global Heroku
     sudo snap install --classic heroku
-     displayName: 'I heroku cli'
+    displayName: 'I heroku cli'
 
 - script: |
     echo CONTAINER LOGIN
@@ -22,7 +22,7 @@ steps:
     heroku container:push -a $HEROKU_APP_NAME web
     echo RELEASE
     heroku container:release -a $HEROKU_APP_NAME web
-     displayName: 'heroku push'
+    displayName: 'heroku push'
     env:
       HEROKU_API_KEY: $(HEROKU_API_KEY)
       HEROKU_APP_NAME: $(HEROKU_APP_NAME)  
