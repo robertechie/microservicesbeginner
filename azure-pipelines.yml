@@ -17,6 +17,10 @@ steps:
 
   displayName: 'i heroku cli'
 
+- script: 
+  workingDirectory: ./my-test/
+  displayName: 'working dire'
+
 - script: |
     echo CONTAINER LOGIN
 
@@ -27,7 +31,6 @@ steps:
 
     echo RELEASE
     heroku container:release -a $HEROKU_APP_NAME web
-
   displayName: 'heroku push'
 
   env:
