@@ -12,7 +12,8 @@ pool:
 steps:
 - script: |
     # npm install -global Heroku
-    sudo snap install --classic heroku
+    # sudo snap install --classic heroku
+    curl https://cli-assets.heroku.com/install.sh | sh
 
      displayName: 'i heroku cli'
 
