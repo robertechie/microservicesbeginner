@@ -15,7 +15,7 @@ steps:
     # sudo snap install --classic heroku
     curl https://cli-assets.heroku.com/install.sh | sh
 
-     displayName: 'i heroku cli'
+  displayName: 'i heroku cli'
 
 - script: |
     echo CONTAINER LOGIN
@@ -28,7 +28,8 @@ steps:
     echo RELEASE
     heroku container:release -a $HEROKU_APP_NAME web
 
-     displayName: 'heroku push'
-    env:
-      HEROKU_API_KEY: $(HEROKU_API_KEY)
-      HEROKU_APP_NAME: $(HEROKU_APP_NAME)  
+  displayName: 'heroku push'
+
+  env:
+    HEROKU_API_KEY: $(HEROKU_API_KEY)
+    HEROKU_APP_NAME: $(HEROKU_APP_NAME)  
