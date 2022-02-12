@@ -18,7 +18,7 @@ steps:
   displayName: 'i heroku cli'
 
 - script: 
-  workingDirectory: ./my-test/
+  workingDirectory: './my-test'
   displayName: 'working dire'
 
 - script: |
@@ -36,3 +36,4 @@ steps:
   env:
     HEROKU_API_KEY: $(HEROKU_API_KEY)
     HEROKU_APP_NAME: $(HEROKU_APP_NAME)  
+  
