@@ -19,9 +19,7 @@ steps:
   displayName: 'i heroku cli'
 
 - script: 
-   echo '$(System.DefaultWorkingDirectory)'
-   dir
-   dir subfoldername
+  workingDirectory: '$(System.DefaultWorkingDirectory)/my-test'
   displayName: 'working dire'
   
 
