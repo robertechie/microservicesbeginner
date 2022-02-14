@@ -24,17 +24,17 @@ steps:
   
 
 - script: |
-   echo build the image
-   docker build -t ./my-test .
-   echo CONTAINER LOGIN
+  #  echo build the image
+  #  docker build -t ./my-test .
+  #  echo CONTAINER LOGIN
 
-   heroku container:login
+  #  heroku container:login
 
-   echo PUSH
-   heroku container:push -a $HEROKU_APP_NAME web
+  #  echo PUSH
+  #  heroku container:push -a $HEROKU_APP_NAME web
 
-   echo RELEASE
-   heroku container:release -a $HEROKU_APP_NAME web
+  #  echo RELEASE
+  #  heroku container:release -a $HEROKU_APP_NAME web
   displayName: 'heroku push'
 
   env:
