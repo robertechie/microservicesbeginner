@@ -11,4 +11,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
 COPY --from=build /app/publish .
 #ENTRYPOINT ["dotnet", "DecaBlog.dll"]
-CMD ASPNETCORE_URLS=htcleartp://*:$PORT dotnet my-test.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet my-test.dll
