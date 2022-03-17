@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{1F80BBB7-F244-42B1-B377-DAC683A3E793}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReservationsApi/Services/ReservationService.cs">
+    <Files>
+      <File FileName="VehicleApi/Program.cs" Line="16" Column="1" />
+      <File FileName="VehicleApi/Models/Vehicle.cs" Line="13" Column="39" />
+      <File FileName="ReservationsApi/Services/ReservationService.cs" Line="32" Column="72" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VehicleTestDrive" expanded="True">
+            <Node name="ReservationsApi" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="ReservationService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.VehicleApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
